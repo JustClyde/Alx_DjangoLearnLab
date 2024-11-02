@@ -6,3 +6,4 @@ from .models import Book
 admin.ModelAdmin
 admin.site.register(Book)
 list_filter", "author", "publication_year"
+search_fields", "title"
