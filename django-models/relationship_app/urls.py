@@ -6,3 +6,4 @@ urlpatterns = [
     path('libraries/<int:pk>/', LibraryDetailView.as_view(), name='library_detail'),  # Class-based view URL
 ]
 Step 
+"views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="
