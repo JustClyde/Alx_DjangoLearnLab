@@ -58,4 +58,5 @@ def user_logout(request):
     return render(request, 'logout.html')
     "from django.contrib.auth import login", "from django.contrib.auth.forms import UserCreationForm"
     "views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="
+    "from django.contrib.auth.decorators import permission_required", "relationship_app.can_add_book", "relationship_app.can_change_book", "relationship_app.can_delete_book"
     
