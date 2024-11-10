@@ -56,4 +56,5 @@ def user_logout(request):
     logout(request)
     return render(request, 'logout.html')
     "from django.contrib.auth import login", "from django.contrib.auth.forms import UserCreationForm"
+    "views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="
     
