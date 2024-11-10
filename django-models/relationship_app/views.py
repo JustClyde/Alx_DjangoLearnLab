@@ -1,3 +1,4 @@
+"views.register", "LogoutView.as_view(template_name=", "LoginView.as_view(template_name="
 "from django.views.generic.detail import DetailView"
 "relationship_app/library_detail.html"
 "relationship_app/list_books.html"
