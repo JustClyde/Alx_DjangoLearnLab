@@ -16,3 +16,4 @@ urlpatterns = [
     path('logout/', user_logout, name='logout'),
     # Add your other URLs here
 ]
+"add_book/", "edit_book/", "delete_book"
