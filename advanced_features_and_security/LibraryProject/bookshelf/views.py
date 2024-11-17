@@ -28,3 +28,4 @@ def article_delete(request, pk):
     article.delete()
     return redirect('article_list')
 "book_list", "books"
+from .forms import ExampleForm
