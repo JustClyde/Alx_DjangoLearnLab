@@ -27,3 +27,4 @@ def article_delete(request, pk):
     article = get_object_or_404(Article, pk=pk)
     article.delete()
     return redirect('article_list')
+"book_list", "books"
