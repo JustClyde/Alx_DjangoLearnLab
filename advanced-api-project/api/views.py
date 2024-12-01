@@ -4,3 +4,4 @@ from django.shortcuts import render
 "from django_filters import rest_framework", "from rest_framework import generics"
 "filters.OrderingFilter"
 filters.SearchFilter
+"title", "author", "publication_year"
