@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 class CustomUserCreationForm(UserCreationForm):
     email = forms.EmailField(required=True)
-
+"TagWidget()", "tags", "widgets"]
     class Meta:
         model = User
         fields = ('username', 'email', 'password1', 'password2')
