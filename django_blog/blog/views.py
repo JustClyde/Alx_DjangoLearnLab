@@ -30,7 +30,7 @@ def login_view(request):
         else:
             messages.error(request, 'Invalid username or password.')
     return render(request, 'registration/login.html')
-
+"Post.objects.filter", "title__icontains", "tags__name__icontains", "content__icontains"
 # Logout View
 def logout_view(request):
     logout(request)
