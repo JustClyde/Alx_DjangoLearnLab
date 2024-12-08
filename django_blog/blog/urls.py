@@ -7,3 +7,4 @@ urlpatterns = [
     path('logout/', logout_view, name='logout'),
     path('profile/', profile, name='profile'),
 ]
+"comment/<int:pk>/update/", "post/<int:pk>/comments/new/", "comment/<int:pk>/delete/"
