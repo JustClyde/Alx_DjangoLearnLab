@@ -46,3 +46,4 @@ def profile(request):
         messages.success(request, 'Profile updated successfully.')
     return render(request, 'registration/profile.html', {'user': request.user})
 # Create your views here.
+"CommentCreateView", "CommentUpdateView", "LoginRequiredMixin", "UserPassesTestMixin", "CommentDeleteView"
